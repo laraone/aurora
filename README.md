@@ -1,2 +1,2 @@
-# aurora-theme
-Aurora Theme
+# Aurora Theme
+Sidebar theme built for Laraone CMS
