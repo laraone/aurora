@@ -43,7 +43,6 @@
             ])@endcomponent
         </div>
 
-
         @if($showAuthorBio)
             <div class="post-author">
                 <div class="post-author-image"><img class="img-responsive" src="{{ get_gravatar($content->author->email) }}" /></div>
@@ -57,8 +56,6 @@
                 </div>
             </div>
         @endif
-
-
 
         @if($showComments)
             @switch(get_website_setting('website.comments.type'))

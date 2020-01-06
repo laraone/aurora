@@ -13,13 +13,13 @@
             @endif
             <!-- Post section -->
             <section class="post-content-wrapper">
-                {{-- <div class="post-taxonomy">
+                <div class="post-taxonomy">
                     @taxonomy([
                         'taxonomy' => 'Tags',
                         'post' => $post,
                         'commaSeparate' => false
                     ]) @endtaxonomy
-                </div> --}}
+                </div>
                 <{{ get_theme_setting('content.general.postTitle.size') }} class="post-title"><a class="post-title-link" href="/{{ $post->type->slug }}/{{ $post->slug }}">{{ $post->title }}</a></{{ get_theme_setting('content.general.postTitle.size') }}>
                 <div class="post-meta">
                     <div class="post-meta-detail">
