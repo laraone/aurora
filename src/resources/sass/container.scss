@@ -17,7 +17,8 @@
 .container {
     .content .container, .sidebar .container {
         width: unset;
-        padding: unset;
+        padding: unset !important;
+        max-width: unset;
     }
 }
 
