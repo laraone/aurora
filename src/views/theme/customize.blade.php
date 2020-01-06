@@ -20,6 +20,12 @@ body {
     @style([ 'property' => 'width', 'value' => data_get($settings, 'global.container.width') ])
     @style([ 'property' => 'max-width', 'value' => data_get($settings, 'global.container.maxWidth') ])
 }
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
 {{-- Container End --}}
 
 
