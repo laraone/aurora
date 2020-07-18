@@ -14,7 +14,7 @@
     "animate.css": "^3.7.2",
     "axios": "^0.18.0",
     "date-fns": "2.8.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "medium-zoom": "1.0.4",
     "vee-validate": "^2.0.3",
     "vue": "^2.6.11",
